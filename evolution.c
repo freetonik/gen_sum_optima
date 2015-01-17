@@ -2,11 +2,6 @@
 
 using namespace std;
 
-void mutate (Individual indi, int mutPoints);
-void mutatePop(Population population1);
-float fitness (Individual);
-void evolve (Population population1);
-
 void mutate (Individual &indi, int mutPoints)
 {
 	for (int n=0; n<mutPoints; n++)
